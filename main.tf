@@ -3,7 +3,7 @@ provider "aws" {
 
   region = var.aws_region
 }
-
+/*
 resource "aws_dynamodb_table" "tfc_example_table" {
   name = var.db_table_name
 
@@ -20,3 +20,4 @@ resource "aws_dynamodb_table" "tfc_example_table" {
     user_name = var.tag_user_name
   }
 }
+*/
